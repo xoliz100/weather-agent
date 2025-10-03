@@ -13,7 +13,7 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
 
 # User info
-USER_EMAIL = "lizzysfca@yahoo.com"
+USER_EMAIL = "test@test.com"
 LOCATION = "Brooklyn,NY,US"
 
 # ============================================
