@@ -1,0 +1,8 @@
+services:
+     - type: web
+       name: weather-agent
+       env: python
+       buildCommand: pip install -r requirements.txt
+       startCommand: python app.py
+
+Save it as render.yaml
