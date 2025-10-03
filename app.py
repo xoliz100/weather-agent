@@ -8,8 +8,8 @@ app = Flask(__name__)
 # ============================================
 # SETUP - Add your API keys here
 # ============================================
-ANTHROPIC_API_KEY = "put it here"
-WEATHER_API_KEY = "put it here"
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
 
 # User info
 USER_EMAIL = "lizzysfca@yahoo.com"
