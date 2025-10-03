@@ -14,7 +14,7 @@ WEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
 
 # User info
 USER_EMAIL = "lizzysfca@yahoo.com"
-LOCATION = "Brooklyn,NY,US"
+LOCATION = "Seattle,WA,US"
 
 # ============================================
 # HARDCODED CALENDAR EVENTS
